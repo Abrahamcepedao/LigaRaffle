@@ -8,7 +8,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import FileButton from '../components/FileButton'
 import Image from 'next/image'
-import Logo from '../public/img/inter.svg'
+import Logo from '../public/img/inter.png'
 import DFLogo from '../public/img/df_logo.png'
 import URent from '../public/img/urent.svg'
 
@@ -417,7 +417,7 @@ const Home: NextPage = () => {
               <div className={styles.logo__container}>
                   <Image src={Logo} width={213} height={200} alt="YCC"/>
               </div>
-              <h1 className={styles.title}>TORNEO INTERGRUPOS 2023</h1>
+              <h1 className={styles.title}>TORNEO INTERGRUPOS 2024</h1>
           </div>
 
           {/* DFuture Logo image */}
