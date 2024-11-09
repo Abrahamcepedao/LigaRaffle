@@ -339,7 +339,7 @@ const Raffle: NextPage = () => {
                 <div className={styles.logo__container}>
                     <Image src={Logo} width={213} height={200} alt="YCC"/>
                 </div>
-                <h1 className={styles.title}>TORNEO INTERGRUPOS 2023</h1>
+                <h1 className={styles.title}>TORNEO INTERGRUPOS 2024</h1>
             </div>
 
             {/* DFuture Logo image */}
