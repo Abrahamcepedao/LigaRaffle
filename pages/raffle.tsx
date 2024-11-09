@@ -8,7 +8,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Raffle.module.css'
 import Image from 'next/image'
-import Logo from '../public/img/inter.svg'
+import Logo from '../public/img/inter.png'
 import DFLogo from '../public/img/df_logo.png'
 import URent from '../public/img/urent.svg'
 
