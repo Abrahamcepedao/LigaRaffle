@@ -8,7 +8,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import FileButton from '../components/FileButton'
 import Image from 'next/image'
-import Logo from '../public/img/inter.png'
+import Logo from '../public/img/inter.jpeg'
 import DFLogo from '../public/img/df_logo.png'
 import URent from '../public/img/urent.svg'
 
@@ -423,7 +423,7 @@ const Home: NextPage = () => {
           {/* DFuture Logo image */}
           <div className={styles.df__logo__container}>
               {/* <p>Desarrollado por:</p> */}
-              <Image src={DFLogo} width={550} height={180} alt="DFuture"/>
+              <Image src={DFLogo} width={500} height={160} alt="DFuture" objectFit='contain'/>
           </div>
 
           {/* Urent Logo image */}
