@@ -10,7 +10,6 @@ import FileButton from '../components/FileButton'
 import Image from 'next/image'
 import Logo from '../public/img/inter.jpeg'
 import DFLogo from '../public/img/df_logo.png'
-import URent from '../public/img/urent.svg'
 
 /* Redux */
 import { 
@@ -424,11 +423,6 @@ const Home: NextPage = () => {
           <div className={styles.df__logo__container}>
               {/* <p>Desarrollado por:</p> */}
               <Image src={DFLogo} width={500} height={160} alt="DFuture" objectFit='contain'/>
-          </div>
-
-          {/* Urent Logo image */}
-          <div className={styles.urent__logo__container}>
-              <Image src={URent} width={550} height={180} alt="URent"/>
           </div>
 
         </div>
