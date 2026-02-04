@@ -416,7 +416,7 @@ const Home: NextPage = () => {
               <div className={styles.logo__container}>
                   <Image src={Logo} width={213} height={200} alt="YCC"/>
               </div>
-              <h1 className={styles.title}>TORNEO INTERGRUPOS {new Date().getFullYear()}</h1>
+              <h1 className={styles.title}>XV TORNEO DE ANIVERSARIO {new Date().getFullYear()}</h1>
           </div>
 
           {/* DFuture Logo image */}
